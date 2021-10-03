@@ -13,8 +13,8 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
-    width: 800px;
     text-align: center;
+    padding: 50px;
 }
 
 .about-info h1{
@@ -26,3 +26,15 @@
     font-size: 20px;
     color: rgba(252, 235, 255, 0.945) ;
 }
+
+
+@media (min-width: 576px) {
+    .about-info h1{
+        font-size: 4rem;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .about-info h1{
+        font-size: 4rem;
+    } 
+  }

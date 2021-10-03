@@ -24,3 +24,13 @@
     color: rgb(29, 187, 255);    
 }
 
+@media (min-width: 576px) {
+    .home-info h1{
+        font-size: 5rem;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .home-info h1{
+        font-size: 5rem;
+    } 
+  }
